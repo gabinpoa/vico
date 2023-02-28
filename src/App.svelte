@@ -33,7 +33,8 @@ function nextPhrase() {
   <div on:click="{nextPhrase}" style="height: {innerHeight}px" class="h-full bg-ranpo bg-cover flex flex-col justify-center">
   <div class="bg-white text-center px-1 py-4">
   {#if !phrasesEnded}
-  <h1 class="{phraseIndex === 0 ? "text-3xl" : "text-2xl"}">{phrases[phraseIndex]}</h1>
+  <h1 class="{phraseIndex === 0 ? "text-3xl" : "text-2xl"} mb-4">{phrases[phraseIndex]}</h1>
+  <p>Clica em qualquer lugar</p>
   {:else}
   <h1 class="text-2xl mb-4">Separei um vídeo especialmente pra ti</h1>
   <a class="text-white bg-green-500 py-2 px-6 rounded-md" target="_blank" href="https://youtu.be/dQw4w9WgXcQ">Ir para o vídeo</a>
