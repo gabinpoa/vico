@@ -20,11 +20,11 @@ function nextPhrase() {
 }
 </script>
 
-{#if !homeOpen }
+{#if homeOpen }
 <div style="height: {innerHeight}px" class="bg-blue-200 flex flex-col">
   <header class="bg-blue-500 px-3 py-3 text-white">Banco Oficial do Brasil</header>
   <main class="flex-1 flex flex-col justify-center px-3 gap-10">
-    <h1 class="text-4xl text-center">Parabéns, você ganhou um IPohne 14!!!</h1>
+    <h1 class="text-4xl text-center">Parabéns, você ganhou um IPhone 14!!!</h1>
     <img src="https://imgs.extra.com.br/1517609673/1xg.jpg?imwidth=292" class="h-40" alt="iphone">
     <button on:click="{changePage}" class="text-white bg-green-500 py-3 text-lg rounded-md">Resgatar recompensa</button>
   </main>
