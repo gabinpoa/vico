@@ -37,7 +37,7 @@ function nextPhrase() {
   <p>Clica em qualquer lugar</p>
   {:else}
   <h1 class="text-2xl mb-4">Separei um vídeo especialmente pra ti</h1>
-  <a class="text-white bg-green-500 py-2 px-6 rounded-md" target="_blank" href="https://youtu.be/dQw4w9WgXcQ">Ir para o vídeo</a>
+  <a rel="noreferrer" class="text-white bg-green-500 py-2 px-6 rounded-md" target="_blank" href="https://youtu.be/dQw4w9WgXcQ">Ir para o vídeo</a>
   {/if}
   </div>
   </div>
